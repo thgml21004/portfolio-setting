@@ -1,0 +1,16 @@
+#hd {
+    background-color: transparent;
+    padding: 15px 0;
+    transition: 0.5s;    
+    a {
+        color: black;
+        transition: 0.5s;
+    }
+    &.scroll {
+        background-color: rgba(0,0,0,0.8);
+        padding: 0;
+        a {
+            color: white;
+        }
+    }
+}
