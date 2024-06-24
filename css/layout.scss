@@ -6,11 +6,29 @@
         color: black;
         transition: 0.5s;
     }
+    h1 {
+        a {
+            span {
+                span {
+                    display: none;
+                }
+            }
+        }
+    }
     &.scroll {
         background-color: rgba(0,0,0,0.8);
         padding: 0;
         a {
             color: white;
+        }
+        h1 {
+            a {
+                span {
+                    span {
+                        display: block;
+                    }
+                }
+            }
         }
     }
 }

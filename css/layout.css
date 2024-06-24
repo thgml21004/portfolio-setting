@@ -7,10 +7,16 @@
   color: black;
   transition: 0.5s;
 }
+#hd h1 a span span {
+  display: none;
+}
 #hd.scroll {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 0;
 }
 #hd.scroll a {
   color: white;
+}
+#hd.scroll h1 a span span {
+  display: block;
 }
